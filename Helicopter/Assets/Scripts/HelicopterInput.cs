@@ -13,6 +13,7 @@ public class HelicopterInput : MonoBehaviour
     {
         R = 0f;
         Y = 0f;
+        X = 0f;
         PushedStart = false;
 
         R = Input.GetAxis("Horizontal");
